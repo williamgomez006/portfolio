@@ -163,3 +163,14 @@ footer a
   margin-right: auto;
   width: 50%;
 }
+
+/*pseudo-classes for anchors*/
+
+
+
+/* visited link */
+a:visited {
+  color: #e6e6e6;
+}
+
+
