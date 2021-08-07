@@ -5,7 +5,7 @@ Date: 7/30/2021
 */
 
 /*CSS Reset*/
-body, header, nav, main, footer, img, h1 
+body, header, nav, main, footer, img, h1,ul
 {
     margin: 0;
     padding: 0;
@@ -19,6 +19,19 @@ img
     display: block;
 }
 
+ /*Style rules for mobile viewport.*/
+
+ /*Style rules to show mobile class and hide tab-desk class.*/
+
+.mobile
+{
+  display: block;
+}
+.tab-desk
+{
+  display: none;
+}
+
 /*Body Background*/
 body
 {
@@ -30,8 +43,9 @@ header
 {
 
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
     color: #000000;
+    font-family: 'Exo 2',sans-serif;
 }
  
 header h1 
@@ -46,13 +60,15 @@ nav {
  
 nav ul {
     list-style-type: none;
-    margin: 0;
     text-align: center;
 }
  
 nav li {
-    display: inline-block;
+    display: block;
     font-size: 2em;
+    border-top: 0.5px ;
+    border-top-color: #e6e6e6 ;
+    border-top-style: solid ;
 }
  
 nav li a {
@@ -69,7 +85,7 @@ main
     padding: 2%;
     background-color: #e6e6e6;
     overflow: auto;
-    font-family: Verdana, Arial, sans-serif;
+    font-family: 'Roboto',sans-serif;
 }
  
 main p 
@@ -77,12 +93,60 @@ main p
     font-size: 1.25em;
 }
 
+/*Style rules for .tel-link  .link*/
+
+.link
+{
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+.round
+{
+  border-radius: 8px;
+  width: 50%;
+  height: 50%;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+#contact
+{
+  text-align: center;
+}
+
+.tel-link
+{
+  background-color: #0f0202;
+  padding: 2%;
+  width: 80%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.tel-link a
+{
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 footer 
 {
     text-align: center;
     font-size: 0.65em;
     clear: left;
-    background-color: white;
+    background-color: #e6e6e6;
 
 }
  
