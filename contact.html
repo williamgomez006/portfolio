@@ -27,14 +27,22 @@ Date: 7/23/2021
           </div>
           <div class="mobile">
             <h1>William Gomez Portfolio</h1> 
-          </div>       
+          </div>  
+
+          <div class="desktop">          
+            <a href="index.html"><img src="/portfolio/images/williamg.jpg" class="center" alt="My portfolio picture" ></a>
+          <h1>William Gomez Portfolio</h1> 
+          </div>     
           </header>
+          
+<!-- Navagatio Area-->
         <nav>
           <ul>
-            <li><a href="index.html"> Home </a> </li>
-            <li><a href="education.html"> Education </a></li>
-            <li><a href="contact.html"> Contact </a></li>
-            <li><a href="about.html">About Me </a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="work.html">Work Expirience</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul> 
         </nav>
 
@@ -49,11 +57,42 @@ Date: 7/23/2021
 
               <iframe src="https://goo.gl/maps/aSnkjWYcT1jR2o5X9" ></iframe>
 
-
-
-
           </div>
 
+          <div id="form">
+            <h2>Complete the form below and I will try to get back to you ASAP</h2>   
+            <form class="form-grid"><!-- Start Form -->  
+              <fieldset>
+                <legend>Contact Information</legend>
+                
+                  <label for="fName">First Name:</label>  
+                  <input type="text" name="fName" id="fName">
+                  <label for="lName">Last Name:</label>  
+                  <input type="text" name="lName" id="lName"> 
+                  <label for="email">Email:</label>  
+                  <input type="email" name="email" id="email">
+                  <label for="phone">Phone:</label>  
+                  <input type="tel" id="phone" name="phone">
+
+              </fieldset>
+
+              <fieldset>
+                <legend>Additional Information</legend>
+
+                  <p>would you like more information about me:</p>
+                
+                  
+                  <label for="career opportunities">Career Opportunities</label>  
+                  <input type="radio" name="info" id="sponsor" value="career Opportunities"> 
+                  <label for="vol">Volunteering</label>  
+                  <input type="radio" name="info" id="vol" value="Volunteering">
+                  <label for="other">Other, please specify below</label>  
+                  <input type="radio" name="info" id="other">   
+                  <label for="questions">What questions do you have for me?</label>  
+                  <textarea  name="questions" id="questions" rows="5" cols="35"></textarea>                  
+               </fieldset>
+
+              <input type="submit"  id="submit"  value="Submit"  class="btn">
         </main>
         
         <footer>
